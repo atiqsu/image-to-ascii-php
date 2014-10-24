@@ -93,7 +93,7 @@ class ImageToAscii
 		$output = '<pre>';
 
 		for ($y = 0; $y < $this->height; $y++) {
-            for ($x = 0; $x <= $this->width; $x++) {
+			for ($x = 0; $x <= $this->width; $x++) {
 
                 $rgb = @imagecolorat($this->image, $x, $y);
                 $r = ($rgb >> 16) & 0xFF;
