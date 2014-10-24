@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Class: ImageToAscii
+ *
+ * Simple image to ascii conversion class.
+ *
+ * @author Tyler Schwemley
+ * @version 1.0
+ */
 class ImageToAscii
 {
 
